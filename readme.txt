@@ -1,5 +1,5 @@
 === Plugin Name ===
-WDS Widget Sidebar Management
+Sane Widget Sidebar Management
 
 Contributors: jtsternberg, webdevstudios
 Plugin Name: WDS Widget Sidebar Management
@@ -28,7 +28,7 @@ There is no configuration for this plugin.
 
 == Installation ==
 
-1. Upload the `wds-sensible-sidebar-management` directory to the `/wp-content/plugins/` directory.
+1. Upload the `sane-widget-sidebar-management` directory to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Screenshots ==
