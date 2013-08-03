@@ -4,48 +4,45 @@ WDS Widget Sidebar Management
 Contributors: jtsternberg, webdevstudios
 Plugin Name: WDS Widget Sidebar Management
 Plugin URI: http://webdevstudios.com
-Tags: Jetpack, slideshow, caption, photos
+Tags: widget, widgets, admin, sidebar, sidebars, wp-admin
 Author: WebDevStudios
 Author URI: http://webdevstudios.com
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.0.1
-Version: 1.0.1
+Stable tag: 1.0.0
+Version: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Modifies Jetpack's default slideshow caption feature.
+Manage one sidebar at a time to maintain widget sanity.
 
 == Description ==
 
-Jetpack has a pretty robust Image slideshow feature. (If you don't know, "Add Media" button > "Create Gallery" > Choose photos > "Create new gallery" > Change type to slideshow in "Gallery Settings" > "Insert Gallery")
+If you have ever needed to accommodate a client's request to have separate sidebars for many sections of the site, you understand the need for this plugin.
 
-Jetpack's handling of photo's captions doesn't work well with long captions (as it overlays the caption above the photo). This plugin modifies the layout so that the caption is displayed below the photo and the slideshow expands to accommodate.
+This plugin alleviates the pain of having many sidebar widget areas by hiding all but one (that is selectable via a dropdown). Gone are the days of trying to drag a new widget from the left column to a sidebar at the bottom of the right column (ugh!).
+
+There is no configuration for this plugin.
 
 --------------------------
 
 == Installation ==
 
-1. Upload the `jetpack-slideshow-caption` directory to the `/wp-content/plugins/` directory.
+1. Upload the `wds-sensible-sidebar-management` directory to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. While editing an entry: "Add Media" button > "Create Gallery" > Choose photos > "Create new gallery" > Add captions to photos > Change type to slideshow in "Gallery Settings" > "Insert Gallery"
 
 == Screenshots ==
 
-1. Caption is displayed below the photo.
+1. New and hawt.
+2. Old and busted.
+3. Sidebar scrolls with you. No more trying to drag outside of the viewing area.
 
 == Changelog ==
-
-= 1.0.1 =
-* Fix slideshow height quirks with smaller images
 
 = 1.0.0 =
 * Launch.
 
 == Upgrade Notice ==
-
-= 1.0.1 =
-* Fix slideshow height quirks with smaller images
 
 = 1.0.0 =
 * Launch.
