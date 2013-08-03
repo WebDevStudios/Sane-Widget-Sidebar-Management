@@ -1,4 +1,4 @@
-WDS Widget Sidebar Management
+Sane Widget Sidebar Management
 ==============================
 
 If you have ever needed to accommodate a client's request to have separate sidebars for many sections of the site, you understand the need for this plugin.
