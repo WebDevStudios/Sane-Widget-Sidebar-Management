@@ -25,7 +25,7 @@ There is no configuration for this plugin.
 
 ##### Plugin Details:
 * Contributors: [jtsternberg](http://profiles.wordpress.org/jtsternberg/), [webdevstudios](http://profiles.wordpress.org/webdevstudios/)
-* Plugin Name: WDS Widget Sidebar Management
+* Plugin Name: Sane Widget Sidebar Management
 * Plugin URI: http://webdevstudios.com
 * Tags: widget, widgets, admin, sidebar, sidebars, wp-admin
 * Author: WebDevStudios
