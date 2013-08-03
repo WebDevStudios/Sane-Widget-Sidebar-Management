@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: NBC Widget Sidebar Management
+Plugin Name: WDS Widget Sidebar Management
 Plugin URI: http://webdevstudios.com/
 Description: Select one sidebar for management at a time to maintain widget sanity.
 Author: WebDevStudios.com
@@ -8,7 +8,7 @@ Version: 1.0.0
 Author URI: http://webdevstudios.com/
 */
 
-class NBC_Widget_Sidebar_Manage {
+class WDS_Widget_Sidebar_Manage {
 
 	public function __construct() {
 		add_action( 'admin_init', array( $this, 'init_hooks' )  );
@@ -20,12 +20,12 @@ class NBC_Widget_Sidebar_Manage {
 	}
 
 	public function js() {
-		wp_register_script( 'nbc-widget-manage-scripts', plugins_url( '/nbc-widget-manage.js', __FILE__ ), array( 'jquery', 'admin-widgets' ), '1.0.0' );
+		wp_register_script( 'wds-widget-manage-scripts', plugins_url( '/widget-sidebar-manage.js', __FILE__ ), array( 'jquery', 'admin-widgets' ), '1.0.0' );
 	}
 
 	public function sidebar_select() {
 		global $wp_registered_sidebars;
-		wp_enqueue_script( 'nbc-widget-manage-scripts' );
+		wp_enqueue_script( 'wds-widget-manage-scripts' );
 
 		?>
 		<style type="text/css">
@@ -71,4 +71,4 @@ class NBC_Widget_Sidebar_Manage {
 		<?php
 	}
 }
-new NBC_Widget_Sidebar_Manage();
+new WDS_Widget_Sidebar_Manage();
