@@ -2,7 +2,7 @@
 /*
 Plugin Name: WDS Widget Sidebar Management
 Plugin URI: http://webdevstudios.com/
-Description: Select one sidebar for management at a time to maintain widget sanity.
+Description: Manage one sidebar at a time to maintain widget sanity.
 Author: WebDevStudios.com
 Version: 1.0.0
 Author URI: http://webdevstudios.com/
