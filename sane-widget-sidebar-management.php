@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WDS Widget Sidebar Management
+Plugin Name: Sane Widget Sidebar Management
 Plugin URI: http://webdevstudios.com/
 Description: Manage one sidebar at a time to maintain widget sanity.
 Author: WebDevStudios.com
