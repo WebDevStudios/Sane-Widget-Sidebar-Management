@@ -29,8 +29,15 @@ class WDS_Widget_Sidebar_Manage {
 
 		?>
 		<style type="text/css">
+		.wrap > h2 {
+			float: left;
+		}
 		#widgets-right {
 			position: relative;
+		}
+		#widget-sidebar-manage-wrap {
+			float: right;
+			margin-top: 15px;
 		}
 		#widgets-right > div.managed {
 			position: absolute;
@@ -48,7 +55,7 @@ class WDS_Widget_Sidebar_Manage {
 			float: right;
 			vertical-align: top;
 			display: block;
-			margin: 2px 33px 0 0;
+			margin: 5px 33px 0 0;
 		}
 		</style>
 		<div id="widget-sidebar-manage-wrap" style="display: none;">
