@@ -11,53 +11,54 @@ Author URI: http://webdevstudios.com/
 class WDS_Widget_Sidebar_Manage {
 
 	public function __construct() {
-		add_action( 'admin_init', array( $this, 'init_hooks' )  );
-		add_action( 'admin_enqueue_scripts', array( $this, 'js' )  );
+		add_action( 'load-widgets.php', array( $this, 'init_hooks' )  );
 	}
 
 	public function init_hooks() {
 		add_action( 'widgets_admin_page', array( $this, 'sidebar_select' )  );
+		add_action( 'admin_print_styles', array( $this, 'print_styles' ) );
+
+		wp_enqueue_script( 'wds-widget-manage-scripts', plugins_url( '/widget-sidebar-manage.js', __FILE__ ), array( 'jquery', 'admin-widgets' ), '1.0.0' );
 	}
 
-	public function js() {
-		wp_register_script( 'wds-widget-manage-scripts', plugins_url( '/widget-sidebar-manage.js', __FILE__ ), array( 'jquery', 'admin-widgets' ), '1.0.0' );
+	public function print_styles() {
+?>
+<style type="text/css">
+.wrap > h2 {
+	float: left;
+}
+#widgets-right {
+	position: relative;
+}
+#widget-sidebar-manage-wrap {
+	float: right;
+	margin-top: 15px;
+}
+#widgets-right > div.managed {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 285px;
+}
+#widget-sidebar-manage {
+	float: right;
+	vertical-align: top;
+	width:  285px;
+	margin-right: 8px;
+}
+#widget-sidebar-manage-label {
+	float: right;
+	vertical-align: top;
+	display: block;
+	margin: 5px 33px 0 0;
+}
+</style>
+<?php
 	}
 
 	public function sidebar_select() {
 		global $wp_registered_sidebars;
-		wp_enqueue_script( 'wds-widget-manage-scripts' );
-
 		?>
-		<style type="text/css">
-		.wrap > h2 {
-			float: left;
-		}
-		#widgets-right {
-			position: relative;
-		}
-		#widget-sidebar-manage-wrap {
-			float: right;
-			margin-top: 15px;
-		}
-		#widgets-right > div.managed {
-			position: absolute;
-			top: 0;
-			right: 0;
-			width: 285px;
-		}
-		#widget-sidebar-manage {
-			float: right;
-			vertical-align: top;
-			width:  285px;
-			margin-right: 8px;
-		}
-		#widget-sidebar-manage-label {
-			float: right;
-			vertical-align: top;
-			display: block;
-			margin: 5px 33px 0 0;
-		}
-		</style>
 		<div id="widget-sidebar-manage-wrap" style="display: none;">
 			<select id="widget-sidebar-manage" name="widget-sidebar-manage">
 				<option value=""><?php _e( 'Select Sidebar', 'wds' ); ?></option>
