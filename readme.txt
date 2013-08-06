@@ -24,6 +24,8 @@ This plugin alleviates the pain of having many sidebar widget areas by hiding al
 
 There is no configuration for this plugin.
 
+Contribute on [github](https://github.com/WebDevStudios/Sane-Widget-Sidebar-Management).
+
 --------------------------
 
 == Installation ==
