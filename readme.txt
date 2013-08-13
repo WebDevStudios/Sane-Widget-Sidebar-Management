@@ -9,8 +9,8 @@ Author: WebDevStudios
 Author URI: http://webdevstudios.com
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.0.0
-Version: 1.0.0
+Stable tag: 1.0.1
+Version: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,10 +41,16 @@ Contribute on [github](https://github.com/WebDevStudios/Sane-Widget-Sidebar-Mana
 
 == Changelog ==
 
+= 1.0.1 =
+* Use appropriate hooks (props [kucrut](https://github.com/kucrut)), and update use of "sidebar" to "widget area" (props [jakept](http://wordpress.org/support/profile/jakept))
+
 = 1.0.0 =
 * Launch.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Use appropriate hooks (props [kucrut](https://github.com/kucrut)), and update use of "sidebar" to "widget area" (props [jakept](http://wordpress.org/support/profile/jakept))
 
 = 1.0.0 =
 * Launch.
