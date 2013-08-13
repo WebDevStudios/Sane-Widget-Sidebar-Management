@@ -61,7 +61,7 @@ class WDS_Widget_Sidebar_Manage {
 		?>
 		<div id="widget-sidebar-manage-wrap" style="display: none;">
 			<select id="widget-sidebar-manage" name="widget-sidebar-manage">
-				<option value=""><?php _e( 'Select Sidebar', 'wds' ); ?></option>
+				<option value=""><?php _e( 'Select Widget Area', 'wds' ); ?></option>
 				<?php
 				foreach ( $wp_registered_sidebars as $id => $sidebar ) {
 					if (
@@ -73,7 +73,7 @@ class WDS_Widget_Sidebar_Manage {
 				}
 				?>
 			</select>
-			<label id="widget-sidebar-manage-label"><b><?php _e( 'Select a Sidebar to Edit:', 'wds' ); ?></b></label>
+			<label id="widget-sidebar-manage-label"><b><?php _e( 'Select a Widget Area to Edit:', 'wds' ); ?></b></label>
 			<div style="clear:both;"></div>
 		</div>
 		<?php
