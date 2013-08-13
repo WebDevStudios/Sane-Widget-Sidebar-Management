@@ -17,7 +17,7 @@ There is no configuration for this plugin.
 
 ![Old and busted](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-2.jpg)
 
-3. Widget Area scrolls with you. No more trying to drag outside of the viewing area.
+3. Widget area scrolls with you. No more trying to drag outside of the viewing area.
 
 ![Widget area scrolls with you](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-3.jpg)
 
