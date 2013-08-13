@@ -1,9 +1,9 @@
 Sane Widget Sidebar Management
 ==============================
 
-If you have ever needed to accommodate a client's request to have separate sidebars for many sections of the site, you understand the need for this plugin.
+If you have ever needed to accommodate a client's request to have separate sidebar widget areas for many sections of the site, you understand the need for this plugin.
 
-This plugin alleviates the pain of having many sidebar widget areas by hiding all but one (that is selectable via a dropdown). Gone are the days of trying to drag a new widget from the left column to a sidebar at the bottom of the right column (ugh!).
+This plugin alleviates the pain of having many sidebar widget areas by hiding all but one (that is selectable via a dropdown). Gone are the days of trying to drag a new widget from the left column to a widget area at the bottom of the right column (ugh!).
 
 There is no configuration for this plugin.
 
@@ -11,15 +11,15 @@ There is no configuration for this plugin.
 
 1. New and hawt.
 
-![New Widget Sidebar Dropdown](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-1.jpg)
+![New Widget Area Dropdown](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-1.jpg)
 
 2. Old and busted.
 
 ![Old and busted](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-2.jpg)
 
-3. Sidebar scrolls with you. No more trying to drag outside of the viewing area.
+3. Widget area scrolls with you. No more trying to drag outside of the viewing area.
 
-![Sidebar scrolls with you](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-3.jpg)
+![Widget area scrolls with you](https://raw.github.com/WebDevStudios/Sane-Widget-Sidebar-Management/master/screenshot-3.jpg)
 
 ------------------------------------
 
@@ -27,7 +27,7 @@ There is no configuration for this plugin.
 * Contributors: [jtsternberg](http://profiles.wordpress.org/jtsternberg/), [webdevstudios](http://profiles.wordpress.org/webdevstudios/)
 * Plugin Name: Sane Widget Sidebar Management
 * Plugin URI: http://webdevstudios.com
-* Tags: widget, widgets, admin, sidebar, sidebars, wp-admin
+* Tags: widget, widget area, widgets, admin, sidebar, sidebars, wp-admin
 * Author: WebDevStudios
 * Author URI: http://webdevstudios.com
 * Requires at least: 3.3
